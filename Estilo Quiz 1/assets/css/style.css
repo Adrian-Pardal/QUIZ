@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+body{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.4rem;
+    background: linear-gradient(45deg , rgb(52, 52, 52) 0%, rgb(0, 0, 0) 100%);
+
+}
+
+.textoImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem ;
+}
+#logo{
+    width: 4rem;
+    border-radius: 1rem;
+}
+body h2{
+    color: white;
+    text-align: center;
+}
+main{
+
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    width: 100%;
+    max-width: 400px;
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.spnQtd{
+    text-align: end;
+}
+
+.answers{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button{
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+
+.finish{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.finish button{
+    text-align: center;
+}
